@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.chinhnut .fa {
+    opacity: 0.5;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.chung{
+   display: flex;
+   justify-content: space-between;
+}
+.dung{
+   
+   display: flex;
+   justify-content: center;   
+}
+.xoa{
+   margin-left: 10px;
+}
+#on {
+    background-color: rgb(87, 160, 227);
+}
+
+.chinhnut {
+    display: flex;
+    
+}
+
+.kia {
+    opacity: 0.5;
+}
+
+.trenconten {
+   justify-content: space-between;
+    display: none;
+}
+
+.trenduoi {
+   justify-content: space-between;
+    display: none;
+}
+.container {
+    width: 500px;
+    justify-content: space-between;
+}
+
+.top {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nam {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.cy{
+   display: none;
+}
+.hiengio{
+   position: relative;
+    width: 200px;
+   margin: 50px;
+    height: auto;
+    padding: 15px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.calendar {
+    position: relative;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: auto;
+    padding: 15px;
+    background-color:  gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.onma {
+    display: flex;
+}
+
+.dates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.datet {
+   
+    display: block;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.day-name {
+    text-align: center;
+    line-height: 49px;
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.thang {
+    display: none;
+    flex-wrap: wrap;
+}
+
+.ngayy {
+    display: none;
+    flex-wrap: wrap;
+}
+
+.years {
+    margin: 8px;
+    text-align: center;
+    line-height: 49px;
+    padding: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.month {
+    margin: 8px;
+    text-align: center;
+    line-height: 5rem;
+    padding: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.yers{
+   margin: 8px;
+    text-align: center;
+    line-height: 5rem;
+    padding: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.day {
+   outline: 2px solid  rgb(87, 160, 227) ;
+    text-align: center;
+    line-height: 49px;
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.date {
+    text-align: center;
+    line-height: 49px;
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.an {
+   outline: none;
+}
+#kobiet{
+   outline: 1px solid rgb(87, 160, 227);
+}
+
+.day:hover {
+    background-color: gainsboro;
+}
+
+#on:hover {
+    background-color:  rgb(87, 160, 227);
+}
+
+.chinhtime {
+   justify-content: space-between;
+   display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#chunghen {
+    margin-left: 3px;
+    height: 20px;
+}
+.hentime{
+   display: flex;
+}
+.days {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gio {
+   display: none;
+   border: 5px;
+   align-items: center;
+   background-color: gray;
+   top: 199px;
+   position: absolute;
+   width: 300px;
+   height: 280px;
+   margin-left: 150px;
+   border-radius: 5px;
+   font-size: 40px;
+   text-align: center;
+}
+#nhac{
+   display: none;
+}
+
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="year.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calendar">
+            <div class="top">
+                <p class="ngay"></p>
+                <button style="height: 20px;">
+                    <i id="anlich" class="fa fa-angle-down"
+                       onClick="nutan('none');anlich('none');nuthien('block')"
+                       style="font-size: 15px;display:block"></i>
+                    <i id="hienlich" class="fa fa-angle-up" 
+                       onClick="nutan('block');anlich('block');nuthien('none')"
+                       style="font-size: 15px;display:none"></i>
+                </button>
+            </div>
+            <div class="datet" id="datet">
+                <div class="nam"> 
+                    <div class="trenruoi chung">
+                        <div class="hienthang"></div>
+                        <div class="chinhnut">
+                        <div class="tangday"><i class="fa fa-caret-down "></i></div>
+                        <div class="giamday"><i class="fa fa-caret-up fa1"></i></div>
+                        </div>
+                    </div>    
+                    <div class="trenconten chung">
+                        <div class="hiennam" style="margin-top: 5px;display: flex;"></div> 
+                        <div class="chinhnut">
+                        <div class="tangmonhts"><i class="fa fa-caret-down "></i></div>
+                        <div class="giammonhts"><i class="fa fa-caret-up fa1"></i></div>
+                        </div>
+                    </div>
+                    <div class="trenduoi chung">
+                        <div class="yers-yers"></div>
+                        <div class="chinhnut">
+                        <div class="giamyers"><i class="fa fa-caret-down "></i></div>
+                        <div class="tangyers"><i class="fa fa-caret-up fa1"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="ngayy"></div>
+                    </div>
+                    <div>
+                        <div class="thang"></div>
+                    </div>
+                    <div class="naman">
+                        <div class="dates"></div>
+                        <div class="days"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="chinhtime">
+                    <div class="hentime">
+                    <button id="chunghen" onclick="giamtime()"><i class="fa fa-minus"></i></button>
+                    <p id="time">30</p><span>Mins</span></input>
+                    <button id="chunghen" onclick="tangtime()"><i class="fa fa-plus"></i></button>
+                    </div>
+                    <button id="hentime" onclick="anhiengio('block')"><i class="fa fa-caret-left" style="float:left"></i>focus</button>   
+                </div>
+            </div>
+        </div>
+        <Div class="gio">
+            <div class="hiengio">
+                <div class="hengio"></div> 
+            </div>
+            <div class="dung">  
+                <i class="fa fa-pause-circle-o co " style="font-size:50px" onclick="anhen('none'),hienhen('block'),tamdung()" style="font-size:24px"></i>
+                <i class="fa fa-play-circle-o cy" style="font-size:50px" onclick="anhen('block'),hienhen('none'),demnguoc()" style="font-size:24px"></i>
+                <i class="fa fa-remove numiy xoa"  style="font-size:50px" onclick="anhiengio('none'),tamdung()"></i>    
+            </div>  
+            <div id="audio"></div>  
+        </Div>
+              
+    </div>
+    <script src="year.js">
+    </script>
+    
+</body>
+
+</html>
+
